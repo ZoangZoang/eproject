@@ -1,0 +1,155 @@
+.footer-container
+> .container-fluid
+> .row
+> #brand-logo-wrapper {
+	background-color: var(--main-color-ffffff);
+	height: 175px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.footer-container
+> .container-fluid
+> .row
+> #brand-logo-wrapper
+> div {
+	width: 9%;
+	height: 41%;
+}
+
+.footer-container
+> .container-fluid
+> .row
+> #brand-logo-wrapper
+> div
+> img {
+	width: 100%;
+	height: 100%;
+}
+
+.footer-container
+> .container-fluid
+> .row
+> #outtro-wrapper {
+	background-color: var(--main-color-000000);
+	height: 175px;
+	display: flex;
+	/* justify-content: space-around;
+	align-items: center; */
+}
+
+.footer-container
+> .container-fluid
+> .row
+> #outtro-wrapper
+> #outtro-logo {
+	width: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer-container
+> .container-fluid
+> .row
+> #outtro-wrapper
+> #outtro-logo
+> img {
+	width: 60%;
+	height: 60%;
+	/* background-color: yellow; */
+}
+
+.footer-container
+> .container-fluid
+> .row
+> #outtro-wrapper
+> #outtro-content {
+	width: 70%;
+	height: 100%;
+	/* background-color: blue; */
+}
+
+.footer-container
+> .container-fluid
+> .row
+> #outtro-wrapper
+> #outtro-content
+> #information-group {
+	height: 60%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.footer-container
+> .container-fluid
+> .row
+> #outtro-wrapper
+> #outtro-content
+> #information-group
+> div {
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer-container
+> .container-fluid
+> .row
+> #outtro-wrapper
+> #outtro-content
+> #information-group
+> div
+> a {
+	text-decoration: none;
+	color: var(--main-color-e6fe58);
+	font-weight: bold;
+}
+
+.footer-container
+> .container-fluid
+> .row
+> #outtro-wrapper
+> #outtro-content
+> #information-group
+> div
+> a:hover {
+	color: white;
+	font-weight: bold;
+}
+
+.footer-container
+> .container-fluid
+> .row
+> #outtro-wrapper
+> #outtro-content
+> #information-group
+> div
+> img {
+	height: 35%;
+	width: 35%;
+}
+
+.footer-container
+> .container-fluid
+> .row
+> #outtro-wrapper
+> #outtro-content
+> #copyright {
+	height: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 14px;
+	font-style: italic;
+	color: white;
+}
+
+.custom-address {
+	font-style: normal;
+	font-weight: bold;
+}
